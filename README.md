@@ -4,7 +4,7 @@ Data and scripts/code associated with "Noninvasive, epigenetic age estimation in
 
 ## Associated data can be found in the "Data" folder, including:
 - "RADmeth_treated_filtered.zip" contains methylated and total read counts for all individuals and all CpG sites post-filtering for depth and coverage.
-- The final training and testing datasets (R objects) for all elastic net regression models presented in the manuscript.
+- "Metadata.csv" contains the metadata associated with all individuals included in the present study (including sample IDs and dates of birth).
 
 ## Associated code can be found in the "Scripts" folder, including:
 
@@ -12,5 +12,5 @@ Data and scripts/code associated with "Noninvasive, epigenetic age estimation in
 - "BAYES_GLM_wTissueSex_Days.r" contains code associated with the Bayesian GLM run with 4,000 warm-up/sampling iterations.
 - "BAYES_GLM_wTissueSex_Days_50k.r" contains code associated with the Bayesian GLM run with 50,000 warm-up/sampling iterations.
 - "95% CI's.Rmd" contains the code necessary to calculate 95% confidence intervals.
-- The custom R script used to run elastic net regression involves the following scripts: "glmnet_loop.sh", "glmnet_prep.r", and "glmnet_loop.r". The script can be executed using the following:
+- The custom R script used to run elastic net regression involves the following scripts: "glmnet_loop.sh", "glmnet_prep.r", and "glmnet_loop.r". The script can be executed using the following code:
     glmnet_loop.sh input.csv ouput.txt iterations loci cpu_threads
