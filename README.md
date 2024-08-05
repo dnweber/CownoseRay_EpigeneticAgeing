@@ -14,4 +14,5 @@ Data and scripts/code associated with "Noninvasive, epigenetic age estimation in
 - "BAYES_GLM_wTissueSex.r" contains code associated with the Bayesian GLM run with 4,000 warm-up/sampling iterations.
 - "BAYES_GLM_wTissueSex_50k.r" contains code associated with the Bayesian GLM run with 50,000 warm-up/sampling iterations.
 - "95% CI's.Rmd" contains the code necessary to calculate 95% confidence intervals.
-- "Elastic Net Regression.Rmd" contains the code necessary to run the elastic net regressions.
+- The custom R script used to run elastic net regression involves the following scripts: "glmnet_loop.sh", "glmnet_prep.r", and "glmnet_loop.r". The script can be executed using the following:
+    glmnet_loop.sh input.csv ouput.txt iterations loci cpu_threads
