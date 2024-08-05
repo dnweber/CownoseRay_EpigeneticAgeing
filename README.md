@@ -3,9 +3,7 @@
 Data and scripts/code associated with "Noninvasive, epigenetic age estimation in an elasmobranch, the cownose ray (*Rhinoptera bonasus*)" D. Nick Weber, Jennifer T. Wyffels, Chris Buckner, Robert George, F. Ed Latson, Veronique LePage, Kady Lyons, and David S. Portnoy. 2024. Submitted to Scientific Reports.
 
 ## Associated data can be found in the "Data" folder, including:
-- "BBRF_percent_wide_FC.csv" contains the matrix of percent methylation values (post all filtering steps) for the fin clip samples, necessary to recreate the elastic net regression results.
-- "BBRF_percent_wide_MU.csv" contains the matrix of percent methylation values (post all filtering steps) for the muscle tissue samples, necessary to recreate the elastic net regression results.
-- "BBRF_percent_wide_BothTissues.csv" contains the matrix of percent methylation values (post all filtering steps) for the fin clip and muscle tissue samples, necessary to recreate the elastic net regression results.
+- "RADmeth_treated_filtered.zip" contains methylated and total read counts for all individuals and all CpG sites post-filtering for depth and coverage.
 - The final training and testing datasets (R objects) for all elastic net regression models presented in the manuscript.
 
 ## Associated code can be found in the "Scripts" folder, including:
